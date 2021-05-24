@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+}
+
+.container-1 {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  position: relative;
+  top: 200px;
+  left: 170px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.box-1 {
+  flex: 1;
+  padding: 3rem 4rem 3rem 4rem;
+}
+
+.p-top {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.3rem;
+  padding-bottom: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.purple {
+  color: hsl(277, 64%, 61%);
+}
+
+.p-middle {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+}
+
+.statistics {
+  display: flex;
+}
+
+.p-bottom {
+  color: hsl(0, 0%, 100%);
+  padding-right: 2.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.stats {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+
+.box-2 {
+  flex: 1;
+  background-image: url("office.jpg");
+  padding: 3rem 3rem 3rem 4rem;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.overlay {
+  background-color: #6b308d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
